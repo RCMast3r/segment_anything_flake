@@ -25,6 +25,6 @@
           default = segment_anything;
         };
 
-    }
+    };
 
 }

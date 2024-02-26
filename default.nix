@@ -7,7 +7,7 @@ python311Packages.buildPythonPackage rec {
   src_repo = fetchgit {
     url = "https://github.com/facebookresearch/segment-anything.git";
     rev = "6fdee8f2727f4506cfbbe553e23b895e27956588";  # Specify the specific commit, tag, or branch
-    sha256 = "sha256-mW3TCYcfTTEVWIFVcvrfBukjKCYZuz7bJy1XBAzbUyI=";  # SHA256 hash of the source
+    sha256 = "sha256-+RHikklIZOTqIapCvlOfQ/fX+xaL47YPOnOaKxofoaM=";  # SHA256 hash of the source
   };
 
   # Extract the specific subdirectory within the repository
